@@ -11,13 +11,14 @@ import search_pb2_grpc
 sys.path.insert(0, 'gRPC/microServicio')
 import configuracion
 
+from google.protobuf.json_format import MessageToDict
+
 app = FastAPI()
 roundRobin = 0
 
 @app.get("/listFiles")
 async def root():
   global roundRobin
-  lista = []
   if roundRobin == 0:
     producer.productor('listFiles')
     consumer.consumidor1()
@@ -31,8 +32,7 @@ async def root():
     stub = search_pb2_grpc.SearchServiceStub(channel)
     response = stub.Search(search_pb2.SearchRequest(query=request))
     print(response)
-    lista.append(response)
-    response = str(lista)
+    response = MessageToDict(response)
     roundRobin = 0
 
   return {"message": response}
@@ -40,7 +40,6 @@ async def root():
 @app.get("/searchFile/{archivo}")
 async def root(archivo):
   global roundRobin
-  lista = []
   request = f'searchFile-{archivo}'
   if roundRobin == 0:
      producer.productor(request)
@@ -51,8 +50,7 @@ async def root(archivo):
     channel = grpc.insecure_channel(f'{configuracion.IP}:{configuracion.PUERTO}')
     stub = search_pb2_grpc.SearchServiceStub(channel)
     response = stub.Search(search_pb2.SearchRequest(query=request))
-    lista.append(response)
-    response = str(lista)
+    response = MessageToDict(response)
     roundRobin = 0
 
   return {"message": response}
