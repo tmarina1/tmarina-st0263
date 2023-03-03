@@ -18,16 +18,12 @@ def consumidor1():
         nombreArchivo = nombreArchivo[:-2]
         lista = buscarArchivos(configuracionMOM.DIRECTORIO, nombreArchivo)
         lista = str(lista)
-        print(lista)
         producer.productor1(lista)
-        print("salio por aca")
         connection.close()
       else: #listFiles
         lista = listarArchivos(configuracionMOM.DIRECTORIO)
         lista = str(lista)
-        print(lista)
         producer.productor1(lista)
-        print("salio por aca")
         connection.close()
   channel.basic_consume(queue="my_app", on_message_callback=callback, auto_ack=True)
   channel.start_consuming()
@@ -37,14 +33,11 @@ def consumidor2():
   channel = connection.channel()
 
   def callback(ch, method, properties, body):
-      print('consumidor2')
-      print(body)
       body = body.decode('utf-8')
       global val
       val = body
       connection.close()
       return val
-  print(f'imprimiendo el valor: {val}')
   channel.basic_consume(queue="response", on_message_callback=callback, auto_ack=True)
   channel.start_consuming()
   return val
