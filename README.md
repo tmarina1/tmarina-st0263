@@ -24,7 +24,7 @@ para ejecturar el proyecto:
 
 * Se debe iniciar la maquina virtual
 * Se hace la conxion con la maquina
-* Luego se debe iniciar el contener de docker con el comando "docker start 6472190018f657b0744618ad67ba4db7c7694dd00a9fb6d02cb26cac9f9ec8c7docker start 6472190018f657b0744618ad67ba4db7c7694dd00a9fb6d02cb26cac9f9ec8c7"
+* Luego se debe iniciar el contener de docker con el comando "docker start 6472190018f657b0744618ad67ba4db7c7694dd00a9fb6d02cb26cac9f9ec8c7"
 * Se debe de dirigir a la ruta "cd st0256/reto2" y correr el comendo para iniciar el fastapi "uvicorn api:app --host 0.0.0.0"
 
 * Si se decea modificar algun parametro de las configuraciones se debe acceder a  "cd /MOM" o a "cd /gRPC/microServicio" y modificar los respectivos archivos
