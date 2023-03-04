@@ -1,6 +1,6 @@
 # ST0263
 # Tomas Marin Aristizabal, tmarina@eafit.edu.co
-# Edwin Montoya, edwinM@eafit.edu.co
+# Edwin Montoya, emontoya@eafit.edu.co
 
 #1
 
