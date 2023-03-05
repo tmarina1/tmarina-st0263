@@ -3,7 +3,7 @@
 # Profesor: Edwin Montoya, emontoya@eafit.edu.co
 # Reto 2
 
-1.
+#1.
 1.1
 
 Cumpli con todos los componentes debedo a que realice el api gateway, la comunicacion entre el api gateway con el microservicio 1 y con el microservicio 2 
