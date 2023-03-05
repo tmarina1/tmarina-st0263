@@ -19,38 +19,57 @@ roundRobin = 0
 @app.get("/listFiles")
 async def root():
   global roundRobin
+  request = 'listFiles'
   if roundRobin == 0:
-    producer.productor('listFiles')
-    consumer.consumidor1()
-    response = consumer.consumidor2()
-    print(response)
-    roundRobin = 1
+    try:
+      conexion = mom(request)
+      roundRobin = 1
+    except:
+      conexion = gRPC(request)
+      roundRobin = 1
   elif roundRobin == 1:
-    print("entro aca")
-    request = 'listFiles'
-    channel = grpc.insecure_channel(f'{configuracion.IP}:{configuracion.PUERTO}')
-    stub = search_pb2_grpc.SearchServiceStub(channel)
-    response = stub.Search(search_pb2.SearchRequest(query=request))
-    print(response)
-    response = MessageToDict(response)
-    roundRobin = 0
+    try:
+      conexion = gRPC(request)
+      roundRobin = 0
+    except:
+      conexion = mom(request)
+      roundRobin = 0
 
-  return {"message": response}
+  return {"message": conexion}
 
 @app.get("/searchFile/{archivo}")
 async def root(archivo):
   global roundRobin
   request = f'searchFile-{archivo}'
   if roundRobin == 0:
-     producer.productor(request)
-     consumer.consumidor1()
-     response = consumer.consumidor2()
-     roundRobin = 1
+    try:
+      conexion = mom(request)
+      roundRobin = 1
+    except:
+      conexion = gRPC(request)
+      roundRobin = 1
   elif roundRobin == 1:
-    channel = grpc.insecure_channel(f'{configuracion.IP}:{configuracion.PUERTO}')
-    stub = search_pb2_grpc.SearchServiceStub(channel)
-    response = stub.Search(search_pb2.SearchRequest(query=request))
-    response = MessageToDict(response)
-    roundRobin = 0
+    try:
+      conexion = gRPC(request)
+      roundRobin = 0
+    except:
+      conexion = mom(request)
+      roundRobin = 0
+  
+  return {"message": conexion}
 
-  return {"message": response}
+def gRPC(request):
+  channel = grpc.insecure_channel(f'{configuracion.IP}:{configuracion.PUERTO}')
+  stub = search_pb2_grpc.SearchServiceStub(channel)
+  response = stub.Search(search_pb2.SearchRequest(query=request))
+  response  = MessageToDict(response)
+  return response 
+
+def mom(request):
+  producer.productor(request)
+  consumer.consumidor1()
+  response = consumer.consumidor2()
+  return response
+
+if __name__ == "__main__":
+  uvicorn.run(app, host="127.0.0.1", port=8000)
