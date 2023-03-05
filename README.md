@@ -38,6 +38,9 @@ de conficuraciones.
 * La IP utilizada para la las conexiones en la 127.0.0.1 osea localhost.
 * Para utilizar el reto 2 debe de buscar en el navegador lo siguiente: IPMaquinaVirtual:8000/listFiles para listar los archivos de un directorio o IPMaquinaVirtual:8000/searchFile/nombreArchivo para buscar un archivo en concreto dentro de un directorio.
 
+<img width="434" alt="image" src="https://user-images.githubusercontent.com/68928376/222937514-2cbbac1b-2b46-471b-989c-05c3d6dd3cbc.png">
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/68928376/222937519-74d50df4-9b4f-42ac-9773-1c22f6e31c02.png">
+
 
 5
 
