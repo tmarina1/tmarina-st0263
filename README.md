@@ -6,25 +6,25 @@
 1.
 1.1
 
-Cumpli con todos los componentes debedo a que realice el api gateway, la comunicacion entre el api gateway con el microservicio 1 y con el microservicio 2 
-el primero con RPC(gRPC) y el segundo mediente el uso de MOM(RabbitMQ), ademas de implemetar el comportamiento de Round Robin para ir alternando la consultas entre ambos microservicios.
+Cumpli con todos los componentes requeridos debedo a que realice el api gateway, la comunicacion entre el api gateway con el microservicio 1 y con el microservicio 2 
+el primero realizado con RPC(gRPC) y el segundo mediente el uso de MOM(RabbitMQ), además de implemetar el comportamiento de Round Robin para ir alternando la consultas entre ambos microservicios.
 
 2
 
-Se podría decir que el reto cumple con un patrón de diseño conocido como BFF, el cual esta diseñado para la implementación de microServicios y considera que el uso de los servicios se da mediante clientes que tienen necesidades y requerimientos específicos, que en nuestro caso seria el requerimiento o necesidad de listar o buscar archivos. Además, se debe resaltar que en si las comunicaciones siguen una arquitectura cliente/servidor donde el cliente realiza consultas y el servidor le manda la respuesta encontrada.
+Se podría decir que el reto cumple con un patrón de diseño conocido como BFF, el cual esta diseñado para la implementación de microServicios y considera que el uso de los servicios se da mediante clientes que tienen necesidades y requerimientos específicos, que en nuestro caso seria el requerimiento o necesidad de listar o buscar archivos ubicados en el microservicio. Además, se debe resaltar que en si las comunicaciones siguen una arquitectura cliente/servidor donde el cliente realiza consultas y el servidor le manda la respuesta encontrada.
 
 3
 
-* Para el desarrollo de este reto se uso python con la ayuda de algunas librerias como os, sys, grpc, pika.
-* El reto se desplego en AWS, en especifico en una maquina virtual que corre con linux ubuntu.
+* Para el desarrollo de este reto se uso python en su version 3.10.6 con la ayuda de algunas librerias como os, sys, grpc, pika, uvicorn, concurrent.
+* El reto se desplego en AWS, en especifico en una maquina virtual que corre con linux ubuntu en su version 22.04.
 * Se uso fastapi para el desarrollo del api gateway.
-* El código utiliza un metodo de Round Robin con el fin de utilizar un metodo de conexion diferente en cada consulta, ya sea gRPC o MOM, además de contar con un manejo de errores en el cual si uno de los microservicios no responde se dirigira a preguntarle a el otro microservicio.
+* El código utiliza un metodo de Round Robin con el fin de utilizar un metodo de conexión diferente en cada consulta, ya sea gRPC o MOM, además de contar con un manejo de errores en el cual si uno de los microservicios no responde o falla se dirigira a preguntarle a el otro microservicio.
 
 para ejecturar el proyecto:
 
 * Se debe iniciar la maquina virtual
 * Se hace la conexión con la maquina
-* Se debe de dirigir a la ruta "cd st0256/reto2" y correr el comendo para iniciar el fastapi "uvicorn apiGateWay:app --host 0.0.0.0"
+* Luego de esto podra utilizar el Reto2
 
 * Si se decea modificar algun parametro de las configuraciones se debe acceder a  "cd /MOM" o a "cd /gRPC/microServicio" y modificar los respectivos archivos
 de conficuraciones.
@@ -53,3 +53,4 @@ Para el desarrollo del reto se consultaron las siguientes paginas web:
 * https://grpc.io/docs/languages/python/basics/
 * https://docs.docker.com/
 * https://pika.readthedocs.io/en/stable/modules/channel.html
+* https://antonputra.com/python/creating-a-linux-service-with-systemd/#create-systemd-linux-service
