@@ -26,8 +26,12 @@ para ejecturar el proyecto:
 * Se hace la conexión con la maquina
 * Luego de esto podra utilizar el Reto2
 
+Si desea modificar las configuraciones:
+
 * Si se decea modificar algun parametro de las configuraciones se debe acceder a  "cd /MOM" o a "cd /gRPC/microServicio" y modificar los respectivos archivos
 de conficuraciones.
+
+Puertos usados:
 
 * Los puertos usados son el 8080 para la comunicacion del apiGateWay con el servidor de gRPC, el puerto 5672 para la comunicación del programa con RabbitMQ y el puerto 15672 para poder acceder al administrador de RabbitMQ. 
 
@@ -37,7 +41,7 @@ de conficuraciones.
 * La IP utilizada para las conexiones en la 127.0.0.1 osea localhost.
 * La IP por la que el apiGateWay escucha es la 0.0.0.0 permitienso asi el acceso desde cualquier dirección IP.
 
-* Para utilizar el reto 2 debe de buscar en el navegador lo siguiente: IPMaquinaVirtual:8000/listFiles para listar los archivos de un directorio o IPMaquinaVirtual:8000/searchFile/nombreArchivo para buscar un archivo en concreto dentro de un directorio, ejemplo: http://100.25.102.33:8000/searchFile/MS1.py.
+* Para utilizar el reto 2 debe de buscar en el navegador lo siguiente: IPMaquinaVirtual:8000/listFiles para listar los archivos de un directorio o IPMaquinaVirtual:8000/searchFile/nombreArchivo para buscar un archivo en concreto dentro de un directorio, ejemplo: http://100.25.102.33:8000/searchFile/MS1.py (recuerde cambiar la IP de la maquina virtual).
 
 Resultados:
 
