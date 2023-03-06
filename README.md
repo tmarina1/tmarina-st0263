@@ -18,7 +18,7 @@ Se podría decir que el reto cumple con un patrón de diseño conocido como BFF,
 * Para el desarrollo de este reto se uso python en su version 3.10.6 con la ayuda de algunas librerias como os, sys, grpc, pika, uvicorn, concurrent.
 * El reto se desplego en AWS, en especifico en una maquina virtual que corre con linux ubuntu en su version 22.04.
 * Se uso fastapi para el desarrollo del api gateway.
-* El código utiliza un metodo de Round Robin con el fin de utilizar un metodo de conexión diferente en cada consulta, ya sea gRPC o MOM, además de contar con un manejo de errores en el cual si uno de los microservicios no responde o falla se dirigira a preguntarle a el otro microservicio.
+* El código utiliza un metodo de Round Robin con el fin de utilizar un método de conexión diferente en cada consulta, ya sea gRPC o MOM, además de contar con un manejo de errores en el cual si uno de los microservicios no responde o falla se dirigira a preguntarle a el otro microservicio.
 
 Para ejecturar el proyecto:
 
@@ -31,6 +31,7 @@ Modificación de configuraciones:
 
 * Si se decea modificar algun parametro de las configuraciones se debe acceder a  "cd /MOM" o a "cd /gRPC/microServicio" y modificar los respectivos archivos
 de conficuraciones.
+* Luego de esto reinicie la maquina virtual
 
 Puertos usados:
 
@@ -39,8 +40,8 @@ Puertos usados:
 4.
 
 * Los archivos de configuraciones permiten modificar la carpeta en la que se haran las busquedas, los puertos de conexión y las IP.
-* La IP utilizada para las conexiones en la 127.0.0.1 osea localhost.
-* La IP por la que el apiGateWay escucha es la 0.0.0.0 permitienso asi el acceso desde cualquier dirección IP.
+* La IP utilizada para las conexiones es 127.0.0.1 osea localhost.
+* La IP por la que el apiGateWay escucha es la 0.0.0.0 permitiendo asi el acceso desde cualquier dirección IP.
 
 Para utilizar el reto 2:
 
