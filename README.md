@@ -24,6 +24,7 @@ para ejecturar el proyecto:
 
 * Se debe iniciar la maquina virtual
 * Se hace la conexión con la maquina
+* Porfavor espere a que el status check de la maquina complete
 * Luego de esto podra utilizar el Reto2
 
 Si desea modificar las configuraciones:
