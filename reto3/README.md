@@ -1,5 +1,5 @@
 
-# # Info de la materia: ST0263 Tópicos especiales de telemática
+# Info de la materia: ST0263 Tópicos especiales de telemática
 
 # Estudiante: Tomas Marin Aristizábal, tmarina@eagit.edu.co
 
