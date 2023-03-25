@@ -38,6 +38,7 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 # WordPress
 
 * Primero se actualiza la instancia y se hace la instalación de Docker:
+
 **![](https://lh3.googleusercontent.com/x8Ij5124qEH3dJDTx5eNjFT1sFXn9YJZEL73k-bcAAjMJ_gctVcX1XAmhyDEUUMiS2K30QbY-xro0qmKIc2WuO8OdfObecxdwuGxEuNQhBSV-Y9v_Vcfw3O7cuxWRuNvdsEHoXZYP9SuET25ctBXLps)**
 
 * Se crear un archivo .yml que contenga la información requerida para correr WordPress con una base de datos remota y un NFS:
