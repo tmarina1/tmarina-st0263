@@ -36,36 +36,49 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 **![](https://lh3.googleusercontent.com/FKo6yhRm-rgzRUynZ2-BC0c-gYkVnDyCXdMz-P06FVkHoMypnVMPoOf3Cm7pYYtTf767OomMIyI7fQutW90oTaxMUy_MpSeuW452zHzCUKIO9b8ll_vqgRK4mArtjeJkjpyjVN16aM3D_uGChz5P5O8)**
 
 # WordPress
+
 * Primero se actualiza la instancia y se hace la instalación de Docker:
 **![](https://lh3.googleusercontent.com/x8Ij5124qEH3dJDTx5eNjFT1sFXn9YJZEL73k-bcAAjMJ_gctVcX1XAmhyDEUUMiS2K30QbY-xro0qmKIc2WuO8OdfObecxdwuGxEuNQhBSV-Y9v_Vcfw3O7cuxWRuNvdsEHoXZYP9SuET25ctBXLps)**
+
 * Se crear un archivo .yml que contenga la información requerida para correr WordPress con una base de datos remota y un NFS:
 **![](https://lh4.googleusercontent.com/SsolIBOe3BWf6A7MB4AgxNnjVjuNhs4x1e97hJID_PIfRgf9j_F4p8juyg2hF9zj6Eoqj-OkVU9u1BxShHmxe1ko-F-Ja5NTaD8UO5PKnwktQ-8k5B52YHfKisiEEuTmgHBU2yG-w5Ff7R_pUenoOdI)**
+
 -   Cabe resaltar que esta configuración se debe realizar en las máquinas virtuales para poder tener dos páginas webs corriendo.
     
 -   Se debe de hacer la configuración del NFS cliente de la siguiente manera:
 **![](https://lh3.googleusercontent.com/kIha8lq8ifuAGO8dU3__vKIBaD_1MOpCny0SMaYsnVQ-W4gihj7ABDjKP3WfAg0rWxQMZW7fggq8MKmqV02W7jw_Ree5nyDYEw6lDGa8QPZcAM41NgqveRV3j8xKg5-ou8C7V9noFXkRyETHjAWIpOI)**
+
 **![](https://lh3.googleusercontent.com/jPn_Ao4BTBBNcuZXK-97gGO5ODDT1k0WDjpHsoSSZjpt4m85U0LVEdy-epTDXEkyvpUeyTGrgcvWQ4B2KQw3oiB9MGSahGdGRv4yBUurpkULeCbM8RQ09FhsbLxXP6uHNO6YkObJvpNI3-68LYt7wAI)**
+
 * Se corre el comando "docker-compose -f wordpress.yml up" y ya con esto podremos acceder  a Google con la IP de la maquina virtual para hacer la configuración del WordPress:
 **![](https://lh3.googleusercontent.com/KLBaMIVBsO6joa8hm-ZSPG_smH627uFjxkmEE5WiubdjqjG2OJSWdDlSEy9oF34he-0g3XGSFzmIn8jZeKeTD9vC4i2TCuKgbjY-DefP5DDYWB8lhnWeaWWxQCeXXBghVcy93sweSPgcwPvEe8t0U5c)**
+
 Cabe resaltar que esta configuración se debe hacer en las dos instancias WordPress requeridas en el reto.
 
 # NFS server
+
 * Se debe hacer la instalación del NFS-server
 **![](https://lh6.googleusercontent.com/2duIu3O4xM9fYTgjsxeEsfjY68GGZ-7CGq7Q0D_Nno7rTc0lJddvtzaYGQTcPi-8pT4tHNPocieHA2zWY2X7LVirioBgAGKRY-hVIpX0MCCWbv67grpeE4o0GJC_80Q8aWnHcNUYHNPxhzZnkCea_lY)**
+
 * Se hace la configuración del NFS server:
 **![](https://lh4.googleusercontent.com/ZWbLsL6ddCg2Z40tQtUHDY87_ZT-CxMNkdqvW2qjitfga6wZhJDiMbRYIbpuavoEKcTibIgh9-mb088kjD5mz-t1iLBATBgi7_4-EE_l1hfgyB67sIbsJbXAAl1o7M5NLPS0YooNDvRMj-o1PXLQXHc)**
+
 * Se colocan la IP privada que abarca las dos máquinas virtuales WordPress previamente creadas:
 **![](https://lh3.googleusercontent.com/qeSg8Pvwto8cePqQQBlckVTduyZqa7onj7ffZI0LsIGjHnD6cl1mp1yndsOCWkH9kWQDO8xC-Axp9-2ri36qf-hSCyRSQTNpmp93fpNYbuHKrOdVjg91Fvh4EoMrcnz9Ul-fp7w2fwVkA05bnJHE_5A)**
+
 * Por ultimo se reinicia el NFS server
 **![](https://lh4.googleusercontent.com/Ye28A-spzT0oXfRd8O9yjOKkMbKKN2Au0wlQnFkrq2a_v4JYhtijYBqeY0Hu2XVUfK-xLV4243xddpanGNvBspKuywb7N5iSnfTD1n3CRq4lHnxxxjpuSswj6htIHL7UP8J-KLU_CNVlFKhs1b7v4q8)**
 
 # Balanceador de carga
 * Se actualiza la maquina virtual y luego se instala letsencrypt, cerbot y nginx
 **![](https://lh5.googleusercontent.com/7GfggiQdP3TM7nOmJU12222ujoXtE-dPv2Ft-p5_6cmRSq9o7zHpQQ0dwJtyK0AuxaPyLSo-al-LX1ZlQd42HkFJN0AfsVODZYENhx6-jAvS9C4a80c2DzEbfAlcsK_1Dndzr-s5YJQFDV6GpLtkpuM)**
+
 * Modificamos el archivo de nginx
 **![](https://lh4.googleusercontent.com/OD8O2xT1xK6LHa8yc4LOkdLAGVGG2eIWjTAYiRbcC61-oLhKavgwZ-7BjJdzgCeYWdQjNqDej7xM_sBk2me51D0h9W9FdQaUnwM3B7Q6uwiRfrqI52I4XKdSE59pJ6K2ILfHzDYWv84X2lLI6d2WZFE)**
+
 * Creamos la carpeta para letsencrypt y se recarga nginx
 **![](https://lh5.googleusercontent.com/LN_EI_3LynLI69EyPrJnm0upo72bPnn7uvSKaIY7q5gMjDGNF_7-fRFA9q4c_tHgeTrkR4ox0LYXgEel1D3bEkV7qgE0OnjqWtNOWFnk_3c6A8witviKY__0cC9WWIsb6GcCYvXuf5ueLi_JMVyoMcQ)**
+
 * Para realizar el siguiente paso previamente se debe de haber reservado el nombre de dominio en Freenom o en cualquier otra plataforma de manejo de dominios y se debió haber asignado la IP elástica de la maquina del balanceador de carga de la siguiente manera:
 **![](https://lh5.googleusercontent.com/jvOJA8Hr8sd4XCr2CVAOL3lEOYiyMqn-ejUp4GLoldM71LNPZ_laHTQOcDPhD-Mtf4F68ukAoJrGIxVm3KBtEhyYy87WztFySzfjB4I3nME0re8CPSN4OO3Vr5D10BaXKrqUREqSV5l9-RFG9uIk__Q)**
  
