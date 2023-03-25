@@ -77,6 +77,7 @@ Cabe resaltar que esta configuración se debe hacer en las dos instancias WordPr
 **![](https://lh4.googleusercontent.com/OD8O2xT1xK6LHa8yc4LOkdLAGVGG2eIWjTAYiRbcC61-oLhKavgwZ-7BjJdzgCeYWdQjNqDej7xM_sBk2me51D0h9W9FdQaUnwM3B7Q6uwiRfrqI52I4XKdSE59pJ6K2ILfHzDYWv84X2lLI6d2WZFE)**
 
 * Creamos la carpeta para letsencrypt y se recarga nginx
+
 **![](https://lh5.googleusercontent.com/LN_EI_3LynLI69EyPrJnm0upo72bPnn7uvSKaIY7q5gMjDGNF_7-fRFA9q4c_tHgeTrkR4ox0LYXgEel1D3bEkV7qgE0OnjqWtNOWFnk_3c6A8witviKY__0cC9WWIsb6GcCYvXuf5ueLi_JMVyoMcQ)**
 
 * Para realizar el siguiente paso previamente se debe de haber reservado el nombre de dominio en Freenom o en cualquier otra plataforma de manejo de dominios y se debió haber asignado la IP elástica de la maquina del balanceador de carga de la siguiente manera:
@@ -87,10 +88,12 @@ Cabe resaltar que esta configuración se debe hacer en las dos instancias WordPr
 * Se mueven los archivos de ejecución y configuración
 **![](https://lh6.googleusercontent.com/OxINx_fWtUiKhP02oBnv6mFwqbUoouHwevijd3cSNRwvfyb5KB-yJYxWRaCrfGFfRpNY6N_cBwuSznKjwQGkMbtbLX9FZLfcNYloPDRa90fk8DiuHksCC9fUcfw7aZGmfmBWqs6Mq1CgtSzs9KX4c4I)**
 * Se instala Docker
+
 **![](https://lh5.googleusercontent.com/8GIlMu_VFuHN4g4qZBRsMYkeaXqp6kbms9zLMttMxBxIN1dDa7WYDigkl_ZOAQ_ELgu_sHZEgMkRKj88ySQGv2u6ugOjeuesckS5TVfUIVDWi9Eetez773wFsPp-Hq5Hl2AjKuBRWDb8f0VtbmCf5iE)**
 * Se mueven los archivos de configuración y ejecución
 **![](https://lh4.googleusercontent.com/viJFEOOMtPUaAGh4qaGUVBz-cwaaNHTezRPg0uuDOLLBJCT69dB2X-PHFrPuFeHvyWF9-TcZyQdzExVp5kqp7DSVyXk9_qbcB0-Okbk9ivLsp-UZpiAeUqFhPcrjNyljUusopz5mn3MAB24yaN-v8is)**
 * Se verifica que nginx no este corriendo por defecto
+
 **![](https://lh3.googleusercontent.com/Q0NOihlOfZ0cepJT2MJDJ4IX2MxQjIxA2CjsnBbDNXgX9PW1IBKNwtGsuq_T3nlhYN3y4gJpnFla8cR1KgBoyJaNcO7N2DpewZTCK8FYLyunyHfKCH3RKGyhFSJk-we-IxIrEUTWyJ8e9EGGqDAJ40A)**
 * Se debe de modificar el archivo de configuración de nginx, agregando el upstream con las IPs con las que hará el balanceo de carga
 **![](https://lh6.googleusercontent.com/ghMNbnVo-QURFnecRSEuS1b6UgQWwYkdYdBgs8HtQ18vIG1up4wgmnSYqJJcp1dNY3spTGQ5Stk_QP7xDUjq6XAHgJK7pDmXFJc_bOl7Ty1eZ3ZcO82Cy7I2F0UxXVRCaDqgjIniqcNi5hlt-a0eWkI)**
