@@ -27,12 +27,13 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 ## Base de datos:
 
 * Primero se actualiza la instancia y se hace la instalación de Docker:
-*![](https://lh3.googleusercontent.com/x8Ij5124qEH3dJDTx5eNjFT1sFXn9YJZEL73k-bcAAjMJ_gctVcX1XAmhyDEUUMiS2K30QbY-xro0qmKIc2WuO8OdfObecxdwuGxEuNQhBSV-Y9v_Vcfw3O7cuxWRuNvdsEHoXZYP9SuET25ctBXLps)**
+
+**![](https://lh3.googleusercontent.com/x8Ij5124qEH3dJDTx5eNjFT1sFXn9YJZEL73k-bcAAjMJ_gctVcX1XAmhyDEUUMiS2K30QbY-xro0qmKIc2WuO8OdfObecxdwuGxEuNQhBSV-Y9v_Vcfw3O7cuxWRuNvdsEHoXZYP9SuET25ctBXLps)**
 * Se crear un archivo .yml que contenga la información requerida para correr la base de datos:
 **![](https://lh4.googleusercontent.com/ABsheZYlhCYTtBBK82F9Uc-CMpcU_eRU0Jdqrgb_HP6Gjsi0PAgHKRRU-ThCoSyXu3o1-PGExpZtYlgor3Aw-3fgxPtlTaDam1DFsvbd6tbcmftG3scPC8nXchK1kS7_QDbeKRc4BxGAaLrvaKyEqUc)**
 * Por último se corre el siguiente comando para correr Docker con el archivo creado anteriormente:
  “docker-compose -f wordpress-db.yml up”
-![](https://lh3.googleusercontent.com/FKo6yhRm-rgzRUynZ2-BC0c-gYkVnDyCXdMz-P06FVkHoMypnVMPoOf3Cm7pYYtTf767OomMIyI7fQutW90oTaxMUy_MpSeuW452zHzCUKIO9b8ll_vqgRK4mArtjeJkjpyjVN16aM3D_uGChz5P5O8)
+**![](https://lh3.googleusercontent.com/FKo6yhRm-rgzRUynZ2-BC0c-gYkVnDyCXdMz-P06FVkHoMypnVMPoOf3Cm7pYYtTf767OomMIyI7fQutW90oTaxMUy_MpSeuW452zHzCUKIO9b8ll_vqgRK4mArtjeJkjpyjVN16aM3D_uGChz5P5O8)**
 
 # WordPress
 * Primero se actualiza la instancia y se hace la instalación de Docker:
