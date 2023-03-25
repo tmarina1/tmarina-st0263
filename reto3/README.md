@@ -19,6 +19,7 @@ Cumplí con todos los requerimientos solicitados por el profesor, creando 5 inst
 
 Para el desarrollo del reto se desarrolla e implementa la arquitectura propuesta por el profesor que se ve de la siguiente manera:
 **![](https://lh6.googleusercontent.com/3PiHctEkvBymHhlPa3xoGybk357PhwN7NxiOOtu92CF9k58gtpN3MB21QaNstHB6BUkrm8q1Sx4tXNU5fb8AnlwK5ZSrHXLYw6tj9SnycJaeHpd7LNqWqQeu3--_rejCa88ymrfw2Qqi7Mr0OQeYe9A)**
+
 En si es una arquitectura cliente servidor, las instancias del balanceador de carga, WordPress y base de datos están realizadas con contenedores de Docker.
 
 # 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programacion, librerías, paquetes, etc, con sus números de versiones.
