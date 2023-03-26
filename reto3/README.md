@@ -31,6 +31,7 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 
 **![](https://lh3.googleusercontent.com/x8Ij5124qEH3dJDTx5eNjFT1sFXn9YJZEL73k-bcAAjMJ_gctVcX1XAmhyDEUUMiS2K30QbY-xro0qmKIc2WuO8OdfObecxdwuGxEuNQhBSV-Y9v_Vcfw3O7cuxWRuNvdsEHoXZYP9SuET25ctBXLps)**
 * Se crear un archivo .yml que contenga la información requerida para correr la base de datos:
+
 **![](https://lh4.googleusercontent.com/ABsheZYlhCYTtBBK82F9Uc-CMpcU_eRU0Jdqrgb_HP6Gjsi0PAgHKRRU-ThCoSyXu3o1-PGExpZtYlgor3Aw-3fgxPtlTaDam1DFsvbd6tbcmftG3scPC8nXchK1kS7_QDbeKRc4BxGAaLrvaKyEqUc)**
 * Por último se corre el siguiente comando para correr Docker con el archivo creado anteriormente:
  “docker-compose -f wordpress-db.yml up”
@@ -44,9 +45,11 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 **![](https://lh3.googleusercontent.com/x8Ij5124qEH3dJDTx5eNjFT1sFXn9YJZEL73k-bcAAjMJ_gctVcX1XAmhyDEUUMiS2K30QbY-xro0qmKIc2WuO8OdfObecxdwuGxEuNQhBSV-Y9v_Vcfw3O7cuxWRuNvdsEHoXZYP9SuET25ctBXLps)**
 
 * Se crear un archivo .yml que contenga la información requerida para correr WordPress con una base de datos remota y un NFS:
+
 **![](https://lh4.googleusercontent.com/SsolIBOe3BWf6A7MB4AgxNnjVjuNhs4x1e97hJID_PIfRgf9j_F4p8juyg2hF9zj6Eoqj-OkVU9u1BxShHmxe1ko-F-Ja5NTaD8UO5PKnwktQ-8k5B52YHfKisiEEuTmgHBU2yG-w5Ff7R_pUenoOdI)**
     
 -   Se debe de hacer la configuración del NFS cliente de la siguiente manera:
+
 **![](https://lh3.googleusercontent.com/kIha8lq8ifuAGO8dU3__vKIBaD_1MOpCny0SMaYsnVQ-W4gihj7ABDjKP3WfAg0rWxQMZW7fggq8MKmqV02W7jw_Ree5nyDYEw6lDGa8QPZcAM41NgqveRV3j8xKg5-ou8C7V9noFXkRyETHjAWIpOI)**
 
 **![](https://lh3.googleusercontent.com/jPn_Ao4BTBBNcuZXK-97gGO5ODDT1k0WDjpHsoSSZjpt4m85U0LVEdy-epTDXEkyvpUeyTGrgcvWQ4B2KQw3oiB9MGSahGdGRv4yBUurpkULeCbM8RQ09FhsbLxXP6uHNO6YkObJvpNI3-68LYt7wAI)**
@@ -59,15 +62,19 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 # NFS server
 
 * Se debe hacer la instalación del NFS-server
+
 **![](https://lh6.googleusercontent.com/2duIu3O4xM9fYTgjsxeEsfjY68GGZ-7CGq7Q0D_Nno7rTc0lJddvtzaYGQTcPi-8pT4tHNPocieHA2zWY2X7LVirioBgAGKRY-hVIpX0MCCWbv67grpeE4o0GJC_80Q8aWnHcNUYHNPxhzZnkCea_lY)**
 
 * Se hace la configuración del NFS server:
+
 **![](https://lh4.googleusercontent.com/ZWbLsL6ddCg2Z40tQtUHDY87_ZT-CxMNkdqvW2qjitfga6wZhJDiMbRYIbpuavoEKcTibIgh9-mb088kjD5mz-t1iLBATBgi7_4-EE_l1hfgyB67sIbsJbXAAl1o7M5NLPS0YooNDvRMj-o1PXLQXHc)**
 
 * Se colocan la IP privada que abarca las dos máquinas virtuales WordPress previamente creadas:
+
 **![](https://lh3.googleusercontent.com/qeSg8Pvwto8cePqQQBlckVTduyZqa7onj7ffZI0LsIGjHnD6cl1mp1yndsOCWkH9kWQDO8xC-Axp9-2ri36qf-hSCyRSQTNpmp93fpNYbuHKrOdVjg91Fvh4EoMrcnz9Ul-fp7w2fwVkA05bnJHE_5A)**
 
 * Por ultimo se reinicia el NFS server
+
 **![](https://lh4.googleusercontent.com/Ye28A-spzT0oXfRd8O9yjOKkMbKKN2Au0wlQnFkrq2a_v4JYhtijYBqeY0Hu2XVUfK-xLV4243xddpanGNvBspKuywb7N5iSnfTD1n3CRq4lHnxxxjpuSswj6htIHL7UP8J-KLU_CNVlFKhs1b7v4q8)**
 
 # Balanceador de carga
@@ -86,9 +93,11 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 **![](https://lh5.googleusercontent.com/LN_EI_3LynLI69EyPrJnm0upo72bPnn7uvSKaIY7q5gMjDGNF_7-fRFA9q4c_tHgeTrkR4ox0LYXgEel1D3bEkV7qgE0OnjqWtNOWFnk_3c6A8witviKY__0cC9WWIsb6GcCYvXuf5ueLi_JMVyoMcQ)**
 
 * Para realizar el siguiente paso previamente se debe de haber reservado el nombre de dominio en Freenom o en cualquier otra plataforma de manejo de dominios y se debió haber asignado la IP elástica de la maquina del balanceador de carga de la siguiente manera:
+
 **![](https://lh5.googleusercontent.com/jvOJA8Hr8sd4XCr2CVAOL3lEOYiyMqn-ejUp4GLoldM71LNPZ_laHTQOcDPhD-Mtf4F68ukAoJrGIxVm3KBtEhyYy87WztFySzfjB4I3nME0re8CPSN4OO3Vr5D10BaXKrqUREqSV5l9-RFG9uIk__Q)**
  
 * Se pide el certificado SSL para el dominio, en este caso se pidió el certificado SSL para el dominio prodroductosjst.tk
+
 **![](https://lh3.googleusercontent.com/5QPmYWE8rn6z1-emTKj47bHEGTJaF-G2BWxhvMsDf-cLXvrfuXHQV11gA0tTrXLpZcVPmPtVAWkdjtOs_yrCi6k9Xj4ZVI08pVEBW-v6d8p9fj6yqUAPSMViAB7zD1s2Q9NoiN-Fs0AmQPDxl2V4Ngk)**
 * Se mueven los archivos de ejecución y configuración generados por letsencrypt para el dominio
 
@@ -97,18 +106,23 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 
 **![](https://lh5.googleusercontent.com/8GIlMu_VFuHN4g4qZBRsMYkeaXqp6kbms9zLMttMxBxIN1dDa7WYDigkl_ZOAQ_ELgu_sHZEgMkRKj88ySQGv2u6ugOjeuesckS5TVfUIVDWi9Eetez773wFsPp-Hq5Hl2AjKuBRWDb8f0VtbmCf5iE)**
 * Se crean y se mueven los archivos de configuración y ejecución
+
 **![](https://lh4.googleusercontent.com/viJFEOOMtPUaAGh4qaGUVBz-cwaaNHTezRPg0uuDOLLBJCT69dB2X-PHFrPuFeHvyWF9-TcZyQdzExVp5kqp7DSVyXk9_qbcB0-Okbk9ivLsp-UZpiAeUqFhPcrjNyljUusopz5mn3MAB24yaN-v8is)**
 * Se verifica que nginx no este corriendo por defecto
 
 **![](https://lh3.googleusercontent.com/Q0NOihlOfZ0cepJT2MJDJ4IX2MxQjIxA2CjsnBbDNXgX9PW1IBKNwtGsuq_T3nlhYN3y4gJpnFla8cR1KgBoyJaNcO7N2DpewZTCK8FYLyunyHfKCH3RKGyhFSJk-we-IxIrEUTWyJ8e9EGGqDAJ40A)**
 * Se debe de modificar el archivo de configuración de nginx, agregando el upstream con las IPs con las que hará el balanceo de carga
+
 **![](https://lh6.googleusercontent.com/ghMNbnVo-QURFnecRSEuS1b6UgQWwYkdYdBgs8HtQ18vIG1up4wgmnSYqJJcp1dNY3spTGQ5Stk_QP7xDUjq6XAHgJK7pDmXFJc_bOl7Ty1eZ3ZcO82Cy7I2F0UxXVRCaDqgjIniqcNi5hlt-a0eWkI)**
 **![](https://lh3.googleusercontent.com/hyhEmgA10zcbT_6Dh6PH-GnTfmDYK_Gxl7hloQa26YEQTvifYD7xfd7jkqg4Yk9UMKdxieNqDiLRicwBq11fJTM5044hRL8bmFe_Eq2XBZmaDWJW5QqmN74muYQlbED_Us_k6sV1rFZ0a6QdYAQhjNE)**
 * Se modigica el archivo docker-compose.yml para usar el contenedor de nginx y se coloca la siguiente información:
+
  **![](https://lh4.googleusercontent.com/dO_rjj2bhhg1YnaiVb9NbieT-1CM6eka42JH8vF9dYO3yk8gNVacKwyW1FPsFwH5EzWchXBWv8nT0ByyUl6R_Vzcame916DZ_5_CANjrIy9Ej3Ppn953eSUJzPZxMSrv1VyWJY32GqZP51ePn1bX8Y0)**
 * Se crea el archivo de configuracion del ssl con la siguiente información:
+
 **![](https://lh6.googleusercontent.com/SreFcOMxPxJNMNTSJ60YkYoVMA5PQ5pcJoHaVE1qLek7zFHeSswBzPTgiWu_RjanMB-R8kMqjn1o8lYdC3EAbtOHAKsZAkqzTKW3g0ZdbHdHG-2YrizlQbzOGSfUEoqbj4Jgpf4hnhVEQm0g3nMcF8k)**
 * Por último se ingresa a la carpeta que se creo, en este caso con el nombre WordPress y se corre docker-compose
+
 **![](https://lh6.googleusercontent.com/GN_sz7snv8iFwkXpZYnqF_Z7BTKL5NGI88yquqpH9YaFEpbJmDXer5MsTKsuB-NmFQHhXNgXoDPuqM1GUKgLD1eNkp9yfQleQfkpxXcuI9fVuZYfgI5fDzC7fcfqmqje99Ftptg7__O_NoEpFT3Km8g)**
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerías, paquetes, etc, con sus números de versiones
 
