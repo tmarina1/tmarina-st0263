@@ -46,7 +46,7 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 
 * Se crear un archivo .yml que contenga la información requerida para correr WordPress con una base de datos remota y un NFS:
 
-**![](https://lh4.googleusercontent.com/SsolIBOe3BWf6A7MB4AgxNnjVjuNhs4x1e97hJID_PIfRgf9j_F4p8juyg2hF9zj6Eoqj-OkVU9u1BxShHmxe1ko-F-Ja5NTaD8UO5PKnwktQ-8k5B52YHfKisiEEuTmgHBU2yG-w5Ff7R_pUenoOdI)**
+**![](https://lh5.googleusercontent.com/SYmTtcKe8gq1fvhsdEqch4yTZn4FMOJenOKR-8-N6W_p4QuJXhKbVndz24qNhQw0sc6T5oX3LVqESs7B3giaxPE33gbfj6L3rB41PFdho13Ns9yXEUVKv-NzPnGP0d1_Fr1M9cOuwsOO5CjKI-9Zp2A)**
     
 -   Se debe de hacer la configuración del NFS cliente de la siguiente manera:
 
