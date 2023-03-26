@@ -71,6 +71,8 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 **![](https://lh4.googleusercontent.com/Ye28A-spzT0oXfRd8O9yjOKkMbKKN2Au0wlQnFkrq2a_v4JYhtijYBqeY0Hu2XVUfK-xLV4243xddpanGNvBspKuywb7N5iSnfTD1n3CRq4lHnxxxjpuSswj6htIHL7UP8J-KLU_CNVlFKhs1b7v4q8)**
 
 # Balanceador de carga
+* Antes de realizar la configuración se debe de verificar que los puertos requeridos por letsencrypt y nginx esten habilitados
+
 * Se actualiza la maquina virtual y luego se instala letsencrypt, cerbot y nginx
 **![](https://lh5.googleusercontent.com/7GfggiQdP3TM7nOmJU12222ujoXtE-dPv2Ft-p5_6cmRSq9o7zHpQQ0dwJtyK0AuxaPyLSo-al-LX1ZlQd42HkFJN0AfsVODZYENhx6-jAvS9C4a80c2DzEbfAlcsK_1Dndzr-s5YJQFDV6GpLtkpuM)**
 
