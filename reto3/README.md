@@ -88,9 +88,11 @@ Cabe resaltar que esta configuración se debe hacer en las dos instancias WordPr
 * Se pide el certificado SSL para el dominio, en este caso se pidió el certificado SSL para el dominio prodroductosjst.tk
 **![](https://lh3.googleusercontent.com/5QPmYWE8rn6z1-emTKj47bHEGTJaF-G2BWxhvMsDf-cLXvrfuXHQV11gA0tTrXLpZcVPmPtVAWkdjtOs_yrCi6k9Xj4ZVI08pVEBW-v6d8p9fj6yqUAPSMViAB7zD1s2Q9NoiN-Fs0AmQPDxl2V4Ngk)**
 * Se mueven los archivos de ejecución y configuración
+
 **![](https://lh6.googleusercontent.com/7NL3TJvRbfls9gAUCkhdvyYPrQ7hJpQKX58ipuOembBXkpwRQ-WTo7cO5OWzaYklCjkXGQ2LTxqnv7RbfHQGUmwomifvtcCLLmIeBtn3pEhfYvn1u7kfcpS5mXGLB7-qUfIhKnV2TveXbSiUnDeiRxg)**
 * Se instala Docker
- **![](https://lh5.googleusercontent.com/8GIlMu_VFuHN4g4qZBRsMYkeaXqp6kbms9zLMttMxBxIN1dDa7WYDigkl_ZOAQ_ELgu_sHZEgMkRKj88ySQGv2u6ugOjeuesckS5TVfUIVDWi9Eetez773wFsPp-Hq5Hl2AjKuBRWDb8f0VtbmCf5iE)**
+
+**![](https://lh5.googleusercontent.com/8GIlMu_VFuHN4g4qZBRsMYkeaXqp6kbms9zLMttMxBxIN1dDa7WYDigkl_ZOAQ_ELgu_sHZEgMkRKj88ySQGv2u6ugOjeuesckS5TVfUIVDWi9Eetez773wFsPp-Hq5Hl2AjKuBRWDb8f0VtbmCf5iE)**
 * Se mueven los archivos de configuración y ejecución
 **![](https://lh4.googleusercontent.com/viJFEOOMtPUaAGh4qaGUVBz-cwaaNHTezRPg0uuDOLLBJCT69dB2X-PHFrPuFeHvyWF9-TcZyQdzExVp5kqp7DSVyXk9_qbcB0-Okbk9ivLsp-UZpiAeUqFhPcrjNyljUusopz5mn3MAB24yaN-v8is)**
 * Se verifica que nginx no este corriendo por defecto
