@@ -32,7 +32,8 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 **![](https://lh3.googleusercontent.com/x8Ij5124qEH3dJDTx5eNjFT1sFXn9YJZEL73k-bcAAjMJ_gctVcX1XAmhyDEUUMiS2K30QbY-xro0qmKIc2WuO8OdfObecxdwuGxEuNQhBSV-Y9v_Vcfw3O7cuxWRuNvdsEHoXZYP9SuET25ctBXLps)**
 * Se crear un archivo .yml que contenga la información requerida para correr la base de datos:
 
-**![](https://lh4.googleusercontent.com/ABsheZYlhCYTtBBK82F9Uc-CMpcU_eRU0Jdqrgb_HP6Gjsi0PAgHKRRU-ThCoSyXu3o1-PGExpZtYlgor3Aw-3fgxPtlTaDam1DFsvbd6tbcmftG3scPC8nXchK1kS7_QDbeKRc4BxGAaLrvaKyEqUc)**
+**![](https://lh3.googleusercontent.com/ZbOSj1o35ZpTtVB4gKOONprnwrsAAXfv224rw5MwGqr8WZA-nXwzOrn9ivFibCwgtU7dMoWv5rlRhIYRj8NqXGn2zphS3-9vlisFlKcPUCGixqH2H2kFz_SI5m1_5GrPqnnWvyf-czroFkSwTe6yF8A)**
+
 * Por último se corre el siguiente comando para correr Docker con el archivo creado anteriormente:
  “docker-compose -f wordpress-db.yml up”
  
