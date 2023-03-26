@@ -109,9 +109,7 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 * Se crean y se mueven los archivos de configuración y ejecución
 
 **![](https://lh4.googleusercontent.com/viJFEOOMtPUaAGh4qaGUVBz-cwaaNHTezRPg0uuDOLLBJCT69dB2X-PHFrPuFeHvyWF9-TcZyQdzExVp5kqp7DSVyXk9_qbcB0-Okbk9ivLsp-UZpiAeUqFhPcrjNyljUusopz5mn3MAB24yaN-v8is)**
-* Se verifica que nginx no este corriendo por defecto
 
-**![](https://lh3.googleusercontent.com/Q0NOihlOfZ0cepJT2MJDJ4IX2MxQjIxA2CjsnBbDNXgX9PW1IBKNwtGsuq_T3nlhYN3y4gJpnFla8cR1KgBoyJaNcO7N2DpewZTCK8FYLyunyHfKCH3RKGyhFSJk-we-IxIrEUTWyJ8e9EGGqDAJ40A)**
 * Se debe de modificar el archivo de configuración de nginx, agregando el upstream con las IPs con las que hará el balanceo de carga
 
 **![](https://lh6.googleusercontent.com/ghMNbnVo-QURFnecRSEuS1b6UgQWwYkdYdBgs8HtQ18vIG1up4wgmnSYqJJcp1dNY3spTGQ5Stk_QP7xDUjq6XAHgJK7pDmXFJc_bOl7Ty1eZ3ZcO82Cy7I2F0UxXVRCaDqgjIniqcNi5hlt-a0eWkI)**
@@ -122,6 +120,11 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 * Se crea el archivo de configuracion del ssl con la siguiente información:
 
 **![](https://lh6.googleusercontent.com/SreFcOMxPxJNMNTSJ60YkYoVMA5PQ5pcJoHaVE1qLek7zFHeSswBzPTgiWu_RjanMB-R8kMqjn1o8lYdC3EAbtOHAKsZAkqzTKW3g0ZdbHdHG-2YrizlQbzOGSfUEoqbj4Jgpf4hnhVEQm0g3nMcF8k)**
+
+* Se verifica que nginx no este corriendo por defecto
+
+**![](https://lh3.googleusercontent.com/Q0NOihlOfZ0cepJT2MJDJ4IX2MxQjIxA2CjsnBbDNXgX9PW1IBKNwtGsuq_T3nlhYN3y4gJpnFla8cR1KgBoyJaNcO7N2DpewZTCK8FYLyunyHfKCH3RKGyhFSJk-we-IxIrEUTWyJ8e9EGGqDAJ40A)**
+
 * Por último se ingresa a la carpeta que se creo, en este caso con el nombre WordPress y se corre docker-compose
 
 **![](https://lh6.googleusercontent.com/GN_sz7snv8iFwkXpZYnqF_Z7BTKL5NGI88yquqpH9YaFEpbJmDXer5MsTKsuB-NmFQHhXNgXoDPuqM1GUKgLD1eNkp9yfQleQfkpxXcuI9fVuZYfgI5fDzC7fcfqmqje99Ftptg7__O_NoEpFT3Km8g)**
