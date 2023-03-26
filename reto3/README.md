@@ -110,13 +110,16 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 
 Para el desarrollo del reto 3 se utilizo la plataforma Google Cloud Platform con la ayuda de instancias de Ubuntu en su versión 20.04, el dominio fue obtenido en freenom utilizando el propio servicio DNS que ofrece freenom.
 
+## Dominio:
+* productosjst.tk
+
 ## Instancias y sus respectivas IPs
 **![](https://lh6.googleusercontent.com/0od9Ay7i48dgoGB24VeMRDbmHE5tAe-r90eUgqlJxUrtQ-of8KbZJDep7jYgpIQsvbhsU35U1ioScHGCNrASC_EssBaLPTAChCsdZYPvgI_nTEJwiwU8gtzTAEbc12kRFhIEDoPiuqMdY680s2Xtbuo)**
 
 ## como se lanza el servidor
 Para que todo funcione se debe de correr el docker-compose en la maquina virtual del balanceador de carga de la siguiente manera:
-* ingresar a la terminal de esta maquina y digitar el siguiente comando "cd /home/tomimundo24/wordpress"
-* ingresar el docker-compose "sudo docker-compose up --build -d"
+* Ingresar a la terminal de esta maquina y digitar el siguiente comando "cd /home/tomimundo24/wordpress"
+* Levante el docker-compose con el comando "sudo docker-compose up --build -d"
 
 
 ## una mini guía de como un usuario utilizaría el software o la aplicación
