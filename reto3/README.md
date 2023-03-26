@@ -74,6 +74,7 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 **![](https://lh5.googleusercontent.com/7GfggiQdP3TM7nOmJU12222ujoXtE-dPv2Ft-p5_6cmRSq9o7zHpQQ0dwJtyK0AuxaPyLSo-al-LX1ZlQd42HkFJN0AfsVODZYENhx6-jAvS9C4a80c2DzEbfAlcsK_1Dndzr-s5YJQFDV6GpLtkpuM)**
 
 * Modificamos el archivo de nginx
+
 **![](https://lh4.googleusercontent.com/OD8O2xT1xK6LHa8yc4LOkdLAGVGG2eIWjTAYiRbcC61-oLhKavgwZ-7BjJdzgCeYWdQjNqDej7xM_sBk2me51D0h9W9FdQaUnwM3B7Q6uwiRfrqI52I4XKdSE59pJ6K2ILfHzDYWv84X2lLI6d2WZFE)**
 
 * Creamos la carpeta para letsencrypt y se recarga nginx
@@ -99,9 +100,9 @@ Cabe resaltar que esta configuración anterior se debe hacer en las dos instanci
 * Se debe de modificar el archivo de configuración de nginx, agregando el upstream con las IPs con las que hará el balanceo de carga
 **![](https://lh6.googleusercontent.com/ghMNbnVo-QURFnecRSEuS1b6UgQWwYkdYdBgs8HtQ18vIG1up4wgmnSYqJJcp1dNY3spTGQ5Stk_QP7xDUjq6XAHgJK7pDmXFJc_bOl7Ty1eZ3ZcO82Cy7I2F0UxXVRCaDqgjIniqcNi5hlt-a0eWkI)**
 **![](https://lh3.googleusercontent.com/hyhEmgA10zcbT_6Dh6PH-GnTfmDYK_Gxl7hloQa26YEQTvifYD7xfd7jkqg4Yk9UMKdxieNqDiLRicwBq11fJTM5044hRL8bmFe_Eq2XBZmaDWJW5QqmN74muYQlbED_Us_k6sV1rFZ0a6QdYAQhjNE)**
-* Se modigica el archivo docker-compose.yml para usar el contenedor de nginx
+* Se modigica el archivo docker-compose.yml para usar el contenedor de nginx y se coloca la siguiente información:
  **![](https://lh4.googleusercontent.com/dO_rjj2bhhg1YnaiVb9NbieT-1CM6eka42JH8vF9dYO3yk8gNVacKwyW1FPsFwH5EzWchXBWv8nT0ByyUl6R_Vzcame916DZ_5_CANjrIy9Ej3Ppn953eSUJzPZxMSrv1VyWJY32GqZP51ePn1bX8Y0)**
-* Se crea el archivo de configuracion del ssl
+* Se crea el archivo de configuracion del ssl con la siguiente información:
 **![](https://lh6.googleusercontent.com/SreFcOMxPxJNMNTSJ60YkYoVMA5PQ5pcJoHaVE1qLek7zFHeSswBzPTgiWu_RjanMB-R8kMqjn1o8lYdC3EAbtOHAKsZAkqzTKW3g0ZdbHdHG-2YrizlQbzOGSfUEoqbj4Jgpf4hnhVEQm0g3nMcF8k)**
 * Por último se ingresa a la carpeta que se creo, en este caso con el nombre WordPress y se corre docker-compose
 **![](https://lh6.googleusercontent.com/GN_sz7snv8iFwkXpZYnqF_Z7BTKL5NGI88yquqpH9YaFEpbJmDXer5MsTKsuB-NmFQHhXNgXoDPuqM1GUKgLD1eNkp9yfQleQfkpxXcuI9fVuZYfgI5fDzC7fcfqmqje99Ftptg7__O_NoEpFT3Km8g)**
