@@ -9,7 +9,7 @@
 
 # 1. Breve descripción de la actividad
 
-En este reto se realizo el despliegue de 2 paginas web WordPress que se conectan a una instancia que cuenta con la base de datos compartida y a un servidor NFS para compartir archivos entre maquinas, por ultimo estas dos maquinas WordPress son balanceadas por un balanceador de carga que se encuentra en otra instancia y que a su vez proporciona la conexión con el nombre de dominio asignado.
+En este reto se hace el despligue de una arquitectura donde se tienen 2 WordPress, un balanceador de carga, una base de datos y un servidor NFS, se cuentan con dos instancias WordPress para garantizar la disponibilidad de la pagina web, además de contar con un el dominio con certificado SSL para una conexión segura mediante https.
 
 # 1.1 Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor. (Requerimientos funcionales y no funcionales)
 
