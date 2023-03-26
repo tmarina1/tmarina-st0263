@@ -44,8 +44,6 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 
 * Se crear un archivo .yml que contenga la información requerida para correr WordPress con una base de datos remota y un NFS:
 **![](https://lh4.googleusercontent.com/SsolIBOe3BWf6A7MB4AgxNnjVjuNhs4x1e97hJID_PIfRgf9j_F4p8juyg2hF9zj6Eoqj-OkVU9u1BxShHmxe1ko-F-Ja5NTaD8UO5PKnwktQ-8k5B52YHfKisiEEuTmgHBU2yG-w5Ff7R_pUenoOdI)**
-
--   Cabe resaltar que esta configuración se debe realizar en las dos máquinas virtuales WordPress para poder tener dos páginas webs corriendo.
     
 -   Se debe de hacer la configuración del NFS cliente de la siguiente manera:
 **![](https://lh3.googleusercontent.com/kIha8lq8ifuAGO8dU3__vKIBaD_1MOpCny0SMaYsnVQ-W4gihj7ABDjKP3WfAg0rWxQMZW7fggq8MKmqV02W7jw_Ree5nyDYEw6lDGa8QPZcAM41NgqveRV3j8xKg5-ou8C7V9noFXkRyETHjAWIpOI)**
@@ -55,7 +53,7 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 * Se corre el comando "docker-compose -f wordpress.yml up" y ya con esto podremos acceder  a Google con la IP de la maquina virtual para hacer la configuración del WordPress:
 **![](https://lh3.googleusercontent.com/KLBaMIVBsO6joa8hm-ZSPG_smH627uFjxkmEE5WiubdjqjG2OJSWdDlSEy9oF34he-0g3XGSFzmIn8jZeKeTD9vC4i2TCuKgbjY-DefP5DDYWB8lhnWeaWWxQCeXXBghVcy93sweSPgcwPvEe8t0U5c)**
 
-Cabe resaltar que esta configuración se debe hacer en las dos instancias WordPress requeridas en el reto.
+Cabe resaltar que esta configuración anterior se debe hacer en las dos instancias WordPress requeridas en el reto, para poder contar con dos instancias que contengan la pagina web.
 
 # NFS server
 
