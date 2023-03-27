@@ -1,3 +1,0 @@
-PUERTO = 5672
-IP = '127.0.0.1'
-DIRECTORIO = '../reto2'
