@@ -24,6 +24,8 @@ En si es una arquitectura cliente servidor, las instancias del balanceador de ca
 
 # 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programacion, librerías, paquetes, etc, con sus números de versiones.
 
+## Desarrollo de instancias Reto3
+
 ## Base de datos:
 
 * Primero se actualiza la instancia y se hace la instalación de Docker:
