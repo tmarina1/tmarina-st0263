@@ -54,7 +54,7 @@ Los otros métodos de este archivo son métodos estandarizados para crear una AP
 
    
 ## 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.  
-**NOTA:** Recuerde que el programa esta diseñado para usarse sobre una red wifi
+**NOTA:** Recuerde que el programa esta diseñado para usarse sobre una red wifi debido a que se hace uso de la dirección ip del consumirdor para segregar a los clientes y de usarse con una red que varie las direcciones IP generara inconsistencias.
 
 
 **Maquinas con el proyecto desplegado**  
