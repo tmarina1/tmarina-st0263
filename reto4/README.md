@@ -7,7 +7,7 @@
 
 # Reto # 4
 
-# 1. breve descripción de la actividad
+# 1. Breve descripción de la actividad
 
 ## 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 Se cumplió con todos los requerimientos expuestos por el profesor, mediante la creación de un balanceador de carga encargado de balancear el autoscaling group que tenia las instancias de Moodle, dichas instancias se conectan a una base de datos y a un servidor NFS ambos creados desde GCP.
