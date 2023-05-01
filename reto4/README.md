@@ -140,6 +140,10 @@ Certificado SSL:
 
 ## una mini guia de como un usuario utilizaría el software o la aplicación
 
+Para utilizarlo por un usuario normal se debe dirigir a la siguiente pagina web en su navegador:
+
+https://reto4.productosjst.tk/
+
 ## opcionalmente - si quiere mostrar resultados o pantallazos 
 
 # 5. otra información que considere relevante para esta actividad.
