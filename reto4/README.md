@@ -26,7 +26,7 @@ Para la ejecución del reto se tuvieron que crear y usar diferentes servicios de
 ## detalles del desarrollo
 Para el desarrollo del reto primero se creo una maquina virtual donde se hizo la configuración de todos los requerimientos necesarios para correr el Moodle, la base de datos y el servidor NFS, las configuraciones que se realizaron en esta instancia fueron las siguientes:
   
-#Configuración para la instancia de Moodle:
+# Configuración para la instancia de Moodle:
   
   ![image](https://user-images.githubusercontent.com/68928376/235477958-0e18fff2-a846-4d52-857b-336857cc4a5c.png)
 
@@ -38,7 +38,7 @@ Automatización de arranque con mount a el NFS server:
 
   ![image](https://user-images.githubusercontent.com/68928376/235478070-e0a9d315-0eea-49a6-ae6e-3d452b47b655.png)
 
-#Para la creación de la base de datos se siguió la siguiente configuración:
+# Para la creación de la base de datos se siguió la siguiente configuración:
 
   ![image](https://user-images.githubusercontent.com/68928376/235478383-ff28318e-3b2d-4837-b691-85c4a55af5a6.png)
 
@@ -55,9 +55,10 @@ Datos para conexion con la base de datos:
   ![image](https://user-images.githubusercontent.com/68928376/235478637-bb54f5ae-de78-484d-b62f-19e2d2f081db.png)
 
 Base de datos creada:
+  
   ![image](https://user-images.githubusercontent.com/68928376/235479433-bc8e9c6b-da7c-4288-b4f8-08f671b26760.png)
 
-#Configuración para el desarrollo del servidor NFS:
+# Configuración para el desarrollo del servidor NFS:
   
 ![image](https://user-images.githubusercontent.com/68928376/235479781-51e6045f-0895-4926-baf0-a2f5f290fcbe.png)
 
@@ -69,7 +70,7 @@ NFS creado y punto de acceso:
   
   ![image](https://user-images.githubusercontent.com/68928376/235479900-4292b9e0-bf04-43d0-a5ab-b9bc15fc837f.png)
 
-#Configuración para la creacción de Imagen:
+# Configuración para la creacción de Imagen:
   
   ![image](https://user-images.githubusercontent.com/68928376/235480009-edd4eecc-2093-4a39-b6da-2ad649f68ee2.png)
 
@@ -77,7 +78,7 @@ NFS creado y punto de acceso:
 
   ![image](https://user-images.githubusercontent.com/68928376/235480076-99334291-1822-42d3-b52f-de605207e85e.png)
   
-#Configuración para el template
+# Configuración para el template
   
   ![image](https://user-images.githubusercontent.com/68928376/235480222-86cac82b-a5f2-4867-bd57-dce252af8d8b.png)
 
@@ -89,7 +90,7 @@ Template  creado correctamente:
   
   ![image](https://user-images.githubusercontent.com/68928376/235480381-bc9deaba-acb4-4443-b331-1c3e03b29c43.png)
 
-#Configuración del grupo de instnacias
+# Configuración del grupo de instnacias
  
   ![image](https://user-images.githubusercontent.com/68928376/235480459-4c9bef53-1548-480f-a3d9-0f4a6acd3733.png)
 
