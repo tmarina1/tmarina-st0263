@@ -123,7 +123,7 @@ Certificado SSL:
   
   ![image](https://user-images.githubusercontent.com/68928376/235481230-6f1b8ef9-7d03-4c5e-89a8-c4796cb61281.png)
 
-# Pagina funcionando correctamente:
+# Página funcionando correctamente:
   
   ![image](https://user-images.githubusercontent.com/68928376/235481291-6f073da3-ccf3-4c84-9d4c-8d20ba2e8273.png)
   
