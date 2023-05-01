@@ -128,10 +128,6 @@ Certificado SSL:
 
 # IP o nombres de dominio en nube o en la máquina servidor.
 
-## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
-
-## como se lanza el servidor.
-
 ## una mini guia de como un usuario utilizaría el software o la aplicación
 
 Para utilizarlo por un usuario normal se debe dirigir a la siguiente pagina web en su navegador:
