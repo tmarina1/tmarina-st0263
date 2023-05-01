@@ -130,3 +130,22 @@ Certificado SSL:
   ![image](https://user-images.githubusercontent.com/68928376/235481305-da3f6334-5840-4e1e-91ce-1d85302183cb.png)
 
 
+# 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
+
+# IP o nombres de dominio en nube o en la máquina servidor.
+
+## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
+
+## como se lanza el servidor.
+
+## una mini guia de como un usuario utilizaría el software o la aplicación
+
+## opcionalmente - si quiere mostrar resultados o pantallazos 
+
+# 5. otra información que considere relevante para esta actividad.
+
+# referencias:
+
+* https://cloud.google.com/filestore/docs/create-instance-console?hl=es-419
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04-es
+* https://hub.docker.com/r/bitnami/moodle
