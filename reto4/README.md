@@ -138,7 +138,7 @@ Para utilizarlo por un usuario normal se debe dirigir a la siguiente pagina web 
 
 https://reto4.productosjst.tk/
 
-# Página funcionando correctamente:
+## Página funcionando correctamente:
   
   ![image](https://user-images.githubusercontent.com/68928376/235481291-6f073da3-ccf3-4c84-9d4c-8d20ba2e8273.png)
   
