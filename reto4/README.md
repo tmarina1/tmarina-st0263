@@ -1,5 +1,5 @@
 
-# info de la materia: STxxxx <nombre>
+# info de la materia: ST0263 Tópicos especiales de telemática
 
 # Estudiante(s): Tomas Marin Aristizábal (tmarina@eafit.edu.co), Simón Cárdenas Villada (sicarvi@eafit.edu.co)
 
