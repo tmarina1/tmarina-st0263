@@ -13,7 +13,7 @@
 Se cumplió con todos los requerimientos expuestos por el profesor, mediante la creación de un balanceador de carga encargado de balancear el autoscaling group que tenia las instancias de Moodle, dichas instancias se conectan a una base de datos y a un servidor NFS ambos creados desde GCP.
 ## 1.2. Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 Se cumplió con todo lo estipulado por el profesor
-# 2. información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
+# 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 Para este reto se siguió la siguiente arquitectura:
   
 ![image](https://user-images.githubusercontent.com/68928376/235477905-e403f783-063a-4721-b5f1-aaae670957a5.png)
@@ -140,7 +140,7 @@ https://reto4.productosjst.tk/
   
   ![image](https://user-images.githubusercontent.com/68928376/235481305-da3f6334-5840-4e1e-91ce-1d85302183cb.png)
 
-# 5. otra información que considere relevante para esta actividad.
+# 5. Otra información que considere relevante para esta actividad.
 
 # referencias:
 
