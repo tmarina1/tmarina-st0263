@@ -15,6 +15,7 @@ Se cumplió con todos los requerimientos expuestos por el profesor, mediante la 
 Se cumplió con todo lo estipulado por el profesor
 # 2. información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 Para este reto se siguió la siguiente arquitectura:
+  
 ![image](https://user-images.githubusercontent.com/68928376/235477905-e403f783-063a-4721-b5f1-aaae670957a5.png)
 
 Como podemos ver en esta arquitectura se tiene en la parte superior un balanceador de carga que tiene la función de gestionar el grupo de instancias que cuentan con la configuración de Moodle, mas abajo se encuentra la base de datos que como se dijo anterior mente se contrata como un servicio de GCP y por ultimo se encuentra el servidor NFS que permite el almacenamiento de archivos estáticos.
