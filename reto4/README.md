@@ -108,5 +108,24 @@ Grupo de instancias creado:
   
   ![image](https://user-images.githubusercontent.com/68928376/235480735-cf0fd272-cc42-4bab-af20-b0ecf4c4ad16.png)
 
+# Configuración para el balanceador de carga:
+  
+  ![image](https://user-images.githubusercontent.com/68928376/235481036-f65bcf61-821c-45ae-884b-0a3f5055bf94.png)
+
+  ![image](https://user-images.githubusercontent.com/68928376/235481109-01684525-6c92-434c-b026-eb5294a6c5da.png)
+
+Balanceador creado:
+  
+  ![image](https://user-images.githubusercontent.com/68928376/235481199-3d1283b4-76aa-4321-8194-758cee377da1.png)
+
+Certificado SSL:
+  
+  ![image](https://user-images.githubusercontent.com/68928376/235481230-6f1b8ef9-7d03-4c5e-89a8-c4796cb61281.png)
+
+# Pagina funcionando correctamente:
+  
+  ![image](https://user-images.githubusercontent.com/68928376/235481291-6f073da3-ccf3-4c84-9d4c-8d20ba2e8273.png)
+  
+  ![image](https://user-images.githubusercontent.com/68928376/235481305-da3f6334-5840-4e1e-91ce-1d85302183cb.png)
 
 
