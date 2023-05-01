@@ -91,7 +91,7 @@ Template  creado correctamente:
   
   ![image](https://user-images.githubusercontent.com/68928376/235480381-bc9deaba-acb4-4443-b331-1c3e03b29c43.png)
 
-# Configuración del grupo de instnacias
+# Configuración del grupo de instancias
  
   ![image](https://user-images.githubusercontent.com/68928376/235480459-4c9bef53-1548-480f-a3d9-0f4a6acd3733.png)
 
