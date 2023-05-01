@@ -123,12 +123,6 @@ Certificado SSL:
   
   ![image](https://user-images.githubusercontent.com/68928376/235481230-6f1b8ef9-7d03-4c5e-89a8-c4796cb61281.png)
 
-# Página funcionando correctamente:
-  
-  ![image](https://user-images.githubusercontent.com/68928376/235481291-6f073da3-ccf3-4c84-9d4c-8d20ba2e8273.png)
-  
-  ![image](https://user-images.githubusercontent.com/68928376/235481305-da3f6334-5840-4e1e-91ce-1d85302183cb.png)
-
 
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
@@ -144,7 +138,11 @@ Para utilizarlo por un usuario normal se debe dirigir a la siguiente pagina web 
 
 https://reto4.productosjst.tk/
 
-## opcionalmente - si quiere mostrar resultados o pantallazos 
+# Página funcionando correctamente:
+  
+  ![image](https://user-images.githubusercontent.com/68928376/235481291-6f073da3-ccf3-4c84-9d4c-8d20ba2e8273.png)
+  
+  ![image](https://user-images.githubusercontent.com/68928376/235481305-da3f6334-5840-4e1e-91ce-1d85302183cb.png)
 
 # 5. otra información que considere relevante para esta actividad.
 
