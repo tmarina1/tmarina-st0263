@@ -126,7 +126,11 @@ Certificado SSL:
 
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
-# IP o nombres de dominio en nube o en la máquina servidor.
+## Link del video donde se explica el desarrollo del reto:
+
+https://www.youtube.com/watch?v=UQJC06sPB_k
+
+## IP o nombres de dominio en nube o en la máquina servidor.
 
 ## una mini guia de como un usuario utilizaría el software o la aplicación
 
