@@ -1,4 +1,4 @@
-# info de la materia: ST0263
+# Info de la materia: ST0263
 # Estudiante(s): Tomas Marin Aristizabal, tmarina@eafit.edu.co
 
 # Profesor: Edwin Montoya, emontoya@eafit.edu.co
