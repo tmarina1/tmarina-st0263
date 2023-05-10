@@ -9,11 +9,11 @@
 
 ## 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
-Se cumplió con todos los requerimientos debido a se realizo la creacción de un Bucket s3 con nombre st0263tmarina este con el fin de almacenar los archivos que se manejen en el cluster, ademas se creo el cluster en el cual se descargaron las aplicaciones de Hadoop, Hue, Zeppelin, Jupyther. Como tambien se hizo el manejo de archivos mediante terminal y mediante Hue.
+Se cumplió con todos los requerimientos debido a se realizo la creacción de un Bucket s3 con nombre st0263tmarina este con el fin de almacenar los archivos que se manejen en el cluster, ademas se creo el cluster en el cual se descargaron las aplicaciones de Hadoop, Hue, Zeppelin, Jupyther. Como tambien se hizo el manejo de archivos mediante terminal y mediante Hue utilizando el dataset proporcionado por el profesor.
 
 ## 1.2. Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
-Se cuplio con los lineamientos estipulados para el reto5-1
+Se cuplio con los lineamientos estipulados para el reto5-2
 
 # 2. información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 
@@ -21,7 +21,7 @@ Se cuplio con los lineamientos estipulados para el reto5-1
 
 ## Detalles del desarrollo
 
-### Teniendo el closter previamente creado y activo empezamos ingresando a este de la siguiente manera:
+### Teniendo el cluster previamente creado y activo, empezamos ingresando a este de la siguiente manera:
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/06d1fd8b-ce39-4666-b9c8-6f5d6a7d54f6)
 
