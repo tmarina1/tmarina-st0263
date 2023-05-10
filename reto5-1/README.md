@@ -102,6 +102,6 @@ Como se ve en la imagen a continuación:
 
 # referencias:
 
-## https://www.youtube.com/watch?v=MyXSwxN5Zdk&ab_channel=EdwinNelsonMontoya
-## https://www.youtube.com/watch?v=3sao-qJG34Y&ab_channel=EdwinNelsonMontoya
-## https://github.com/st0263eafit/st0263-231/tree/main/bigdata
+### https://www.youtube.com/watch?v=MyXSwxN5Zdk&ab_channel=EdwinNelsonMontoya
+### https://www.youtube.com/watch?v=3sao-qJG34Y&ab_channel=EdwinNelsonMontoya
+### https://github.com/st0263eafit/st0263-231/tree/main/bigdata
