@@ -71,7 +71,7 @@ Se cuplio con los lineamientos estipulados para el reto5-1
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/c0c90d97-e757-487d-82b5-a551c5e801d6)
 
-### Verifique la conexión con la Hue
+### Verifique la conexión con Hue
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/787c5416-7b05-492f-ba85-20472f351cf7)
 
