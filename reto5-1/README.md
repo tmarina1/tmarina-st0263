@@ -50,7 +50,7 @@ Se cuplio con los lineamientos estipulados para el reto5-1
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/c1dd2476-616d-40dd-b021-e11637915323)
 
-### Agrege los puertos 22, 8888, 9443 y 8899 en la configuración del firewall
+### Agrege los puertos 8888, 9443 y 8899 en la configuración del firewall
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/838d06b7-8969-4259-b18f-ea30f1d86dba)
 
@@ -62,11 +62,16 @@ Se cuplio con los lineamientos estipulados para el reto5-1
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/3bc8cc3f-9bef-4ac5-8333-5c73f604c9de)
 
+### Agrege la configuración para colocar el bucket publico de la siguiente manera:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/4be51ee7-fd80-45fc-962c-eeeb31e55c0a)
+
+
 ### Pruebe la conexión con el cluster ingresando el comando ssh en la terminal de la siguiente manera:
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/c0c90d97-e757-487d-82b5-a551c5e801d6)
 
-### Haga la conexión con Hue
+### Verifique la conexión con la Hue
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/787c5416-7b05-492f-ba85-20472f351cf7)
 
