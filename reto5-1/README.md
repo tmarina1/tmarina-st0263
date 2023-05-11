@@ -1,4 +1,4 @@
-# Info de la materia: ST0263
+# Info de la materia: ST0263 Tópicos especiales en telemática
 # Estudiante(s): Tomas Marin Aristizabal, tmarina@eafit.edu.co
 
 # Profesor: Edwin Montoya, emontoya@eafit.edu.co
