@@ -15,8 +15,6 @@ Se cumplió con todos los requerimientos debido a se realizo la creacción de un
 
 Se cuplio con los lineamientos estipulados para el reto5-2
 
-# 2. información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
-
 # 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
 ## Detalles del desarrollo
@@ -29,7 +27,7 @@ Se cuplio con los lineamientos estipulados para el reto5-2
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/6106b5bc-e8f7-4805-8a63-f6efd6a0a649)
 
-### Revisamos que contenido tienen los directorios y creamos el directorio datasets y datasets/gutenberg-small de la siguiente manera:
+### Revisamos que contenido tienen los directorios base y creamos el directorio datasets y datasets/gutenberg-small de la siguiente manera:
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/43a87fc3-15e3-4402-ad5b-6a500bbb35ef)
 
