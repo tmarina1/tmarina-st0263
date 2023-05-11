@@ -9,13 +9,11 @@
 
 ## 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
-Se cumplió con todos los requerimientos debido a se realizo la creacción de un Bucket s3 con nombre st0263tmarina este con el fin de almacenar los archivos que se manejen en el cluster, ademas se creo el cluster en el cual se descargaron las aplicaciones de Hadoop, Hue, Zeppelin, Jupyther.
+Se cumplió con todos los requerimientos debido a se realizo la creacción de un Bucket s3 con nombre st0263tmarina este con el fin de almacenar los archivos que se manejen en el cluster, ademas se creo el cluster en el cual se descargaron las aplicaciones de Hadoop, Hue, Zeppelin, Jupyther, entre otras.
 
 ## 1.2. Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
 Se cuplio con los lineamientos estipulados para el reto5-1
-
-# 2. información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 
 # 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
@@ -50,7 +48,7 @@ Se cuplio con los lineamientos estipulados para el reto5-1
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/c1dd2476-616d-40dd-b021-e11637915323)
 
-### Agrege los puertos 8888, 9443 y 8899 en la configuración del firewall
+### Agrege los puertos necesarios en la configuración del firewall de la siguiente manera:
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/838d06b7-8969-4259-b18f-ea30f1d86dba)
 
