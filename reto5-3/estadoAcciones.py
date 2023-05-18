@@ -8,15 +8,16 @@ class estadoAcciones(MRJob):
     def reducer(self, company, price):
         listaPrecio = list(price)
         precioactual = 0
+        estado = ''
     
         for precio in listaPrecio:
-          if precio >= precioactual:
+          if precio > precioactual or precio == precioactual:
             estado = 'Se mantine estable'
             precioactual = precio
           else:
-            precioactual = precioactual
             estado = 'No se mantiene estable'
-        yield company, estado
+        if estado == 'Se mantine estable':
+          yield company, estado
 
 if __name__ == '__main__':
     estadoAcciones.run()
