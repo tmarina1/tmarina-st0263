@@ -56,6 +56,10 @@ Para correr un archivo que contenga un codigo de Map Reduce solo es necesario ej
 1.
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/e91ce70e-cf4a-45bb-b0af-fb410c53ab3d)
 
+2.
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/381408a1-81ed-438b-84cc-dbce4bd64027)
+
 4.
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/e1aa156d-4b2e-4257-93c6-26b90f15b1bb)
 
