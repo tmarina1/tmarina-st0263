@@ -59,7 +59,107 @@ def crearInstanciaEC2(self, amiImage):
     instancia.terminate()
     return instancia
 ```
-  
+
+En el archivo monitor.py se realizó el código que hace el manejo de las instancias, todo esto se hace mediante conexiones con las instancias creadas con grpc que permiten recopilar información sobre el estado y uso de la CPU de cada máquina para así poder determinar si es necesario crear o eliminar una instancia.
+
+```bash
+def monitor():
+  global uso
+
+  if not manager.pool:
+    for i in range(2):
+      try:
+        manager.crearInstanciaEC2(accesoAWS.ami_template)
+        manager.verPool()
+      except:
+        conexionInstancia = 'Error en  creacción instancias iniciales'
+  else:
+    for instancia in manager.pool:
+      time.sleep(1)
+      try:
+        conexionInstancia = gRPC(instancia[1], 'EstaVivo')
+        uso.append(conexionInstancia["usoCPU"])
+      except:
+        conexionInstancia = 'Error en envio de EstaVivo a instancia'   
+    if uso:
+        #promedioUso = sum(uso)/len(uso)
+        valMin = min(uso) 
+        valMax = max(uso)
+        manager.verPool()
+        print(f'Valor minimo{valMin}')
+        print(f'Valor maximo{valMax}')
+        uso = []
+
+        if valMax >= 70:
+          print('creando')
+          manager.crearInstanciaEC2(accesoAWS.ami_template)
+          manager.verPool()
+          for instancia in manager.pool:
+            try:
+              conexionInstancia = gRPC(instancia[1], 'Evento')
+            except:
+              conexionInstancia = 'Error en envio de evento crear instancia'
+        if valMin < 19:
+          if len(manager.pool) == 2:
+              for instancia in manager.pool:
+                try:
+                  conexionInstancia = gRPC(instancia[1], 'Evento')
+                except:
+                  conexionInstancia = 'Error en envio de evento'
+          else:
+            print('borrando')
+            tupla = random.choice(manager.pool)
+            IDinstancia = tupla[0]
+            manager.eliminarInstanciaEC2(IDinstancia)
+            valTupla = manager.pool.index(tupla)
+            manager.pool.pop(valTupla)
+            manager.verPool()
+            for instancia in manager.pool:
+              try:
+                conexionInstancia = gRPC(instancia[1], 'Evento')
+              except:
+                conexionInstancia = 'Error en envio de evento eliminar instancia'
+```
+
+En el archivo instance.py se hace el manejo de las instancias donde se tiene el grpc que recibe los mensajes que envia el monitor y tambien se tiene el metodo que calcula el uso de CPU de la siguiente manera:
+
+```bash
+class messageService(messages_pb2_grpc.messageServiceServicer):
+    def message(self, request, context):
+        if request.estado == 'EstaVivo':
+            CPU = usoCPU()
+            return messages_pb2.messageResponse(respuesta = "estoyVivo", usoCPU = CPU)
+        if request.estado == 'Evento':
+            reset()
+            return messages_pb2.messageResponse(respuesta = "reseteado")
+```
+
+```bash
+def usoCPU():
+    global uso
+    global estado
+    if estado == 0:
+        delta = random()
+        if delta <= 0.5:
+            uso -= 1
+        else:
+            uso +=1
+        
+        delta2 = random()
+        if delta2 >= 0.8 and delta2<=0.85:
+            estado = 2
+        elif delta2 >0.85 and delta2<=0.9:
+            estado = 1
+        else: 
+            estado = 0
+    elif estado == 1 and uso <100:
+        uso += 2
+    elif estado == 2 and uso > 0:
+        uso -= 2
+    
+    return uso
+```
+
 ## 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.  
 
 
