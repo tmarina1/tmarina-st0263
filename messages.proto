@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service messageService {
+  rpc message (instructionRequest) returns (messageResponse) {}
+}
+
+message instructionRequest {
+  string estado = 1;
+}
+
+message messageResponse {
+  string respuesta = 1;
+  int32 usoCPU = 2;
+}
