@@ -87,6 +87,9 @@ Parte 2
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/7f76d223-0a8a-4a81-9e07-1bbd42f72b1b)
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/54bf74d7-4183-47b5-b3fc-6e740f91d54e)
 
+2.
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/94bc63f7-3166-4d65-8243-3444df063d7f)
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/b878d208-f820-4a5c-b969-a1341bfb2302)
 
 3.
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/1a99c5ff-9063-4983-8a8b-2fff2f4051d4)
