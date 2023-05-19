@@ -97,7 +97,7 @@ Parte 2
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/29ed90cb-f88b-475d-a405-45bfc31a3558)
 
 4.
-En el codigo se hace una conexión con PySpark, se trae la información de un bucket S3, luego se mira que contenido tiene este archivo y como se organizo, luego de esto se empiezan a hacer segregaciones de datos o en si operaciones con los datos como por ejemplo ´´´ df.select('mobile').distinct().count()´´´ 
+En el codigo se hace una conexión con PySpark, se trae la información de un bucket S3, luego se mira que contenido tiene este archivo y como se organizo, luego de esto se empiezan a hacer segregaciones de datos o en si operaciones con los datos como por ejemplo ``` df.select('mobile').distinct().count() ``` 
 
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
