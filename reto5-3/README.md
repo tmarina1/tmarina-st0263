@@ -82,6 +82,11 @@ Para correr un archivo que contenga un codigo de Map Reduce solo es necesario ej
 
 Parte 2
 
+3.
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/1a99c5ff-9063-4983-8a8b-2fff2f4051d4)
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/f3723ac9-db0c-4c6a-a3ef-18544c2b4cc7)
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/29ed90cb-f88b-475d-a405-45bfc31a3558)
+
 4.
 En el codigo se hace una conexión con PySpark, se trae la información de un bucket S3, luego se mira que contenido tiene este archivo y como se organizo, luego de esto se empiezan a hacer segregaciones de datos o en si operaciones con los datos como por ejemplo ´´´ df.select('mobile').distinct().count(´´´ 
 
