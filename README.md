@@ -24,7 +24,42 @@ La arquitectura en la que se basa el proyecto consiste en una instancia que tien
 
 ## 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
-   
+Para el desarrollo del Monitor se creo un archivo llamado clases_ec2-py el cual cumple la función del SDK donde se pueden crear y eliminar instancias, este código se implemento de la siguiente manera:
+
+En el siguiente código se hace el constructor de la clase Manager donde se tiene una lista llamada pool donde se almacenara la IP y ID de las maquinas creadas, ademas de hacer la conexión con AWS.
+
+```bash
+class Manager:
+  def __init__(self) -> None:
+    self.pool = []
+    self.ec2 = boto3.resource('ec2', 
+                              aws_access_key_id =  accesoAWS.aws_access_key_id,
+                              aws_secret_access_key = accesoAWS.aws_secret_access_key, 
+                              aws_session_token = accesoAWS.aws_session_token, 
+                              region_name = 'us-east-1')
+```
+El siguiente código permite hacer la creación y eliminación de maquinas virtuales
+
+```bash
+def crearInstanciaEC2(self, amiImage):
+    instancia = self.ec2.create_instances(
+      ImageId = amiImage, 
+      MinCount = 1, 
+      MaxCount = 1,
+      InstanceType = 't2.micro', 
+      KeyName = "vockey",
+      )
+    time.sleep(2)
+    instancia[0].reload()
+    self.pool.append((instancia[0].id, instancia[0].public_ip_address))
+    return instancia
+  
+  def eliminarInstanciaEC2(self, instanceId):
+    instancia = self.ec2.Instance(instanceId)
+    instancia.terminate()
+    return instancia
+```
+  
 ## 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.  
 
 
