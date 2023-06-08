@@ -78,16 +78,77 @@ Realice la pregunda de negocio que quiera sobre los datos y respondala con la co
 
 ## Detalles del desarrollo en JupyterHub
 
+# 1.
+Para realizar el desarrollo del reto primero se cargo el dataset de casos de positivos de covid en mi google drive personal y en el bucket s3 creado para la materia.
 
+# 2.
+
+Carga de dataset, visualización de las columnas y el tipo de datos del dataset:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/8848d4ae-ab62-41df-8ce0-402f6d177fdd)
+
+Renombrado de columna:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/6451512c-ab4f-43ca-8fc7-f4f96c462d80)
+
+Creacción de una nueva columna:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/5d8db294-c9e0-4389-9007-cc2b0f655756)
+
+Borrado de la columna previamente creada:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/0d72722a-14ab-4a92-8d28-ae51fac7464c)
+
+Filtrado de datos:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/55c7a7f3-8e95-4dcf-aef1-2db20777f186)
+
+Función lambda y UDF:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/e66be415-b72e-4b0b-be8f-282b69086d53)
+
+# 3.
+
+Los 10 departamentos con más casos de covid en Colombia ordenados de mayor a menor:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/159e0eee-e814-495b-a17e-817884b14d60)
+
+Las 10 ciudades con más casos de covid en Colombia ordenados de mayor a menor:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/6cf092c6-d856-4f61-9872-85717077e7e2)
+
+Los 10 días con más casos de covid en Colombia ordenados de mayor a menor:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/4dcc8d5a-9831-4f8b-bf90-469e2d117921)
+
+Distribución de casos por edades de covid en Colombia
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/b831ee78-72cf-4729-943a-b852dedd640f)
+
+Realice la pregunda de negocio que quiera sobre los datos y respondala con la correspondiente programación en spark:
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/cb801ae3-5ee8-4153-b0de-78dfbfbdb583)
+
+# 4 
+
+Como se puede ver en las imagenes de los codigos anteriores se almaceno el resultado que estos querys arrojaron en un bucket S3
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/e42b9f88-db8b-4cd1-bcef-317a6bfc311b)
+
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/95b5026a-46c0-4830-98a7-62f59fbb5dd7)
+
+La ruta de acceso al bucket es: "s3://st0263tmarina/resultados.csv/"
 
 
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
-
+La ejecución de este laboratorio se hizo en un cluster en su versión emr-6.3.1 y en google colab, ademas de usar JupyterHub en su versión 1.2.0.
 
 # 5. otra información que considere relevante para esta actividad.
 
 # referencias:
 
 ### https://github.com/st0263eafit/st0263-231/tree/main/bigdata
+### https://barcelonageeks.com/como-eliminar-columnas-en-el-marco-de-datos-de-pyspark/
+### https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/ch04.html
 
