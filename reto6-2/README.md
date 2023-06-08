@@ -148,7 +148,8 @@ La ejecución de este laboratorio se hizo en un cluster en su versión emr-6.3.1
 
 # referencias:
 
-## https://github.com/st0263eafit/st0263-231/tree/main/bigdata
-## https://barcelonageeks.com/como-eliminar-columnas-en-el-marco-de-datos-de-pyspark/
-## https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/ch04.html
+* https://github.com/st0263eafit/st0263-231/tree/main/bigdata
+* https://barcelonageeks.com/como-eliminar-columnas-en-el-marco-de-datos-de-pyspark/
+* https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/ch04.html
+* https://sparkbyexamples.com/pyspark/pyspark-join-explained-with-examples/
 
