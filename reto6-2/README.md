@@ -9,6 +9,7 @@
 
 ## 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
+Se cumplieron con todos los aspectos propuestos por el profesor para el laboratorio 6-2, se utilizo el dataset propuesto con el fin de manejar y utilizar Spark para el manejo de datos.
 
 ## 1.2. Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
