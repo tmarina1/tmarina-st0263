@@ -26,6 +26,8 @@ Para realizar el desarrollo del reto primero se cargo el dataset de casos de pos
 
 # 2.
 
+Antes de poder interactuar con Spark se tuvo que configurar primero de la siguiente manera:
+
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/c7dd7a39-d16a-40c5-8555-fe322ec62fde)
 
 Carga de dataset y visualización de las columnas del dataset:
