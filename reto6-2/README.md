@@ -136,7 +136,7 @@ Realice la pregunda de negocio que quiera sobre los datos y respondala con la co
 
 # 4 
 
-Como se puede ver en las imagenes de los codigos anteriores se almaceno el resultado que estos querys arrojaron en un bucket S3
+Como se puede ver en las imagenes de los códigos anteriores se almaceno el resultado que estos querys arrojaron en un bucket S3
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/e42b9f88-db8b-4cd1-bcef-317a6bfc311b)
 
