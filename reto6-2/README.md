@@ -22,6 +22,8 @@ Se cuplio con los lineamientos estipulados para el reto6-2
 # 1.
 Para realizar el desarrollo del reto primero se cargo el dataset de casos de positivos de covid en mi google drive personal y en el bucket s3 creado para la materia.
 
+![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/08bc61a2-298d-462b-b5c6-05386ab93f88)
+
 # 2.
 
 ![image](https://github.com/tmarina1/tmarina-st0263/assets/68928376/c7dd7a39-d16a-40c5-8555-fe322ec62fde)
